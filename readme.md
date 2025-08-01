@@ -1,127 +1,125 @@
-# 结合生存分析的中医智能处方推荐系统
+# Intelligent Traditional Chinese Medicine Prescription Recommendation System Combined with Survival Analysis
 
 - ## datasets
 
-  包含所有数据文件
+  Contains all data files.
 
 - ## mode
 
-  包含MLKNN、KNN训练模型
+  Contains the trained MLKNN and KNN models.
 
 - ## static
 
   > ### **cluster**
   >
-  > > 人群划分结果数据
+  > > Population division result data.
   >
   > ### **CSS**
   >
-  > > 全部CSS代码
+  > > All CSS code.
   >
   > ### **images**
   >
-  > > 图片资源
+  > > Image resources.
   >
   > ### **js**
   >
-  > > JavaScript文件
+  > > JavaScript files.
   >
   > ### **uploads**
   >
-  > > 用户上传的数据集文件
+  > > User-uploaded dataset files.
 
 - ## templates
 
-  **全部前端代码**
+  **All front-end code.**
 
   - **base.html**
 
-    基模板，导航栏功能
+    Base template, navigation bar functionality.
 
   - **dataset.html**
 
-    数据集管理前端
+    Dataset management front-end.
 
   - **home.html**
 
-    平台首页
+    Platform homepage.
 
   - **index.html**
 
-    欢迎界面
+    Welcome interface.
 
   - **input.html**
 
-    问诊信息采集
+    Consultation information collection.
 
   - **log.html**
 
-    诊断日志
+    Diagnosis log.
 
   - **login.html**
 
-    登录界面
+    Login interface.
 
   - **model.html**
 
-    模型管理
+    Model management.
 
   - **other_home.html**
 
-    他人主页
+    Others' homepage.
 
   - **output.html**
 
-    推荐结果
+    Recommendation results.
 
   - **people_divide.html**
 
-    人群划分
+    Population division.
 
   - **people_divide_info.html**
 
-    人群详细信息
+    Detailed population information.
 
   - **report.html**
 
-    诊断报告
+    Diagnosis report.
 
   - **signup.html**
 
-    登录界面
+    Signup interface.
 
   - **user_home.html**
 
-    用户主页
+    User homepage.
 
-- ## python文件
+- ## Python files
 
   - **algorithm.py**
 
-    mlknn、knn
+    Contains MLKNN and KNN algorithms.
 
   - **Clustering2Analysis.py**
 
-    人群划分
+    Handles population division.
 
   - **data_check.py**
 
-    人群划分数据格式检测
+    Performs data format checks for population division.
 
   - **jaccard.py**
 
-    计算相似人群
+    Calculates similar populations.
 
   - **main.py**
 
-    flask后端
+    The Flask backend.
 
   - **PR_system_sim.py**
 
-    相似度推荐算法
+    The similarity recommendation algorithm.
 
   - **similarity.py**
 
-    相似经典方
-
-  
+    Finds similar classic prescriptions.
